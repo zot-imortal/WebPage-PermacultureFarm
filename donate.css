@@ -1,0 +1,56 @@
+.Healthcare__items{
+  
+}
+.info {
+    width:550px;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: unset;
+    position: relative;
+    background: #ffffff;
+    box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+    border-radius: 8px;
+    text-align:justify;
+   
+   
+  }
+  .icon{
+      text-align: center;
+  }
+  .list_perk{
+    padding-bottom: 20px;
+  }
+  .donate{
+      
+      position: relative;
+      border-radius: 3%;
+      height: 15%;
+      background-color: #FFA800;
+      width: 100%;
+  }
+
+  .li-text{
+      height: 200px;
+  }
+  
+  @media(max-width:600.98px){
+    .info {
+        width: 300px;
+        z-index: 3;
+        display:list-item;
+    }
+    
+    .li-text{
+        height: 100px;
+    }
+    .healthcare__item  {
+        width: 100%;
+    }
+  }
+  @media(max-width:400.98px){
+    
+    .li-text{
+        height: 200px;
+    }
+  }
